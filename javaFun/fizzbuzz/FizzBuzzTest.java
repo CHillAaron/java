@@ -5,6 +5,5 @@ public class FizzBuzzTest{
         fizzy.buzzFizz(5);
         fizzy.buzzFizz(3);
         fizzy.buzzFizz(2);
-
     }
 }
