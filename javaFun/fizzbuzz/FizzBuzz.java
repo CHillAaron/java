@@ -10,7 +10,8 @@ public class FizzBuzz {
         }else if (number%3 == 0){
             System.out.println("Fizz");
             return "Fizz";
-        }else System.out.println("Try another number");
-        return "Try another number";
+        }else System.out.println(number );
+        return  "Try another number " + number ;
     }
 }
+
