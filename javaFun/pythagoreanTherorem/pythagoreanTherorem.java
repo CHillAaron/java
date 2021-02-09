@@ -1,4 +1,4 @@
-public class pythagoreanTherorem {
+public class PythagoreanTherorem {
         public double calculateHypotenuse(int legA, int legB) {
             // the hypotenuse is the side across from the right angle. 
             double legC = Math.sqrt((legA * legA) + (legB * legB));

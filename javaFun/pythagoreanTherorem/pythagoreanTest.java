@@ -1,8 +1,7 @@
-public class pythagoreanTest{
+public class PythagoreanTest{
     public static void main(String[] args) {
-        pythagoreanTherorem example = new pythagoreanTherorem();
+        PythagoreanTherorem example = new PythagoreanTherorem();
         double hypotenuse = example.calculateHypotenuse(8,10);
-        example.calculateHypotenuse(10,10);
-        system.out.println(hypotenuse);
+        System.out.println(example.calculateHypotenuse(10,10));
     }
 }
